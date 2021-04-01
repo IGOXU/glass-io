@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+}
+
+h1 {
+  color: #da74b7;
+  font-weight: 600;
+  font-size: 2.5rem;
+  opacity: 0.8;
+}
+
+h2,
+p {
+  color: #e289f8;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+h3 {
+  color: #da74b7;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+main {
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left bottom, right top, from(#f88bd7), to(#e992f0));
+  background: linear-gradient(to right top, #f88bd7, #e992f0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.glass {
+  min-height: 80vh;
+  width: 70%;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.3)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  border-radius: 2rem;
+  z-index: 4;
+  -webkit-backdrop-filter: blur(2rem);
+          backdrop-filter: blur(2rem);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 4rem 0 4rem 0;
+}
+
+.circle1,
+.circle2 {
+  background: white;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.5)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.5));
+  height: 14rem;
+  width: 14rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle1 {
+  position: fixed;
+  top: 2%;
+  right: 10%;
+}
+
+.circle2 {
+  position: fixed;
+  bottom: 2%;
+  left: 10%;
+}
+
+.dashboard {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.2)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  border-radius: 2rem 0 0 2rem;
+}
+
+.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: inherit;
+      -ms-flex-pack: inherit;
+          justify-content: inherit;
+  margin: 1rem 0rem;
+  padding: 1rem 4rem;
+}
+
+.link:first-of-type {
+  margin-top: 0;
+}
+
+.link:last-of-type {
+  margin-bottom: 0;
+}
+
+.link h2 {
+  padding: 0rem 2rem;
+}
+
+.games {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2rem 5rem 1rem 5rem;
+}
+
+.pro {
+  background: -webkit-gradient(linear, left bottom, right top, from(#f88bd7), to(#e992f0));
+  background: linear-gradient(to right top, #f88bd7, #e992f0);
+  border-radius: 2rem;
+  color: white;
+  padding: 0.4rem 2.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  text-align: left;
+}
+
+.pro img {
+  margin-top: -2rem;
+}
+
+.pro h2 {
+  width: 30%;
+  color: white;
+  font-weight: 600;
+}
+
+/*  */
+.status {
+  margin-bottom: 3rem;
+}
+
+.status input {
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.3)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  border: none;
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 2rem;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.5)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
+  border-radius: 1rem;
+  margin: 2rem 0;
+  padding: 1rem;
+  -webkit-box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.5);
+          box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.5);
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.card img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.card-info {
+  margin-left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-info .progress {
+  background: -webkit-gradient(linear, left bottom, right top, from(#f88bd7), to(#e992f0));
+  background: linear-gradient(to right top, #f88bd7, #e992f0);
+  width: 100%;
+  height: 20%;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-info .progress::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #ececec;
+  position: absolute;
+  left: 60%;
+}
+
+.percentage {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left bottom, right top, from(#f88bd7), to(#e992f0));
+  background: linear-gradient(to right top, #f88bd7, #e992f0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
